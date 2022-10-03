@@ -1,0 +1,80 @@
+/* these all apply to the body */
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('../images/denim.png');
+
+}
+  /* main header rules */
+
+  #CharacterNav {
+
+    text-align: center;
+    background-color: black;
+
+  }
+
+  .Characters {
+
+    list-style-type: none;
+
+  }
+
+  .Characters li {
+
+    display: inline-block;
+
+  }
+
+  .Characters li img {
+
+    width: 150px;
+    cursor: pointer;
+
+  }
+
+  header {
+
+    background-color: red;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+  }
+
+#MainLogo {
+    width: 300px;
+    padding: 10px 0;
+}
+
+/* footer rules here */
+footer {
+
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.sticky_footer {
+
+    position: sticky;
+    top: 100%;
+
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+
+}
